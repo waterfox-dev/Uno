@@ -1,0 +1,16 @@
+Cards are represented as follows :
+[numero, color]
+
+NUMERO :
+10 : +2
+11 : Inverse Sense
+12 : Skip 
+13 : Color Change
+14 : +4
+
+COLOR :
+0 : Red 
+1 : Yellow 
+2 : Green
+3 : Blue 
+4 : Black

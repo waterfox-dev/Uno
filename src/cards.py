@@ -1,5 +1,5 @@
 from enum import Enum
-from data.cardConfig import simple_game
+from src.data.cardConfig import simple_game
 
 import random
 

@@ -1,7 +1,7 @@
-from player import Player
-from cards import CardPackage
-from utils.logger import Logger
-from rules import Rules
+from src.player import Player
+from src.cards import CardPackage
+from src.utils.logger import Logger
+from src.rules import Rules
 
 import random
 
@@ -27,5 +27,7 @@ class Game:
         Logger.log("Round", f"Round {self.round} has been started")
     
     def player_action(self, player_card : tuple):
-        if Rules.can_pose(self.card, self.player_action):
+        if Rules.can_pose(self.card, player_card):
             self.card = player_card
+            return True
+

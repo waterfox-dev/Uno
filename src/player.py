@@ -7,4 +7,4 @@ class Player:
     
     def __str__(self):
         return f'name : {self.name}\npos : {self.pos}\ncards : {self.cards}'
-        
+    
